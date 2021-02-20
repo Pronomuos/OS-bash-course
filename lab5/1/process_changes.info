@@ -1,0 +1,167 @@
+PID:COMMAND
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	832:lsmd	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	7594:handler1.sh	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1907:handler1.sh	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	7594:handler1.sh	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	340175:kworker/0:0-events_power_ef+	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	9:ksoftirqd/0	46:kswapd0	1908:handler2.sh	1:systemd	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	872:sssd_nss	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	46:kswapd0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1908:handler2.sh	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	9:ksoftirqd/0	1:systemd	2:kthreadd	3:rcu_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+383399:mem.bash	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+458:kworker/0:1H-kblockd	652:systemd-journal	1:systemd	2:kthreadd	3:rcu_gp	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+872:sssd_nss	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+388853:top	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+7594:handler1.sh	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+872:sssd_nss	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+1907:handler1.sh	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+872:sssd_nss	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+987:tuned	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+
+872:sssd_nss	1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	
+
+1:systemd	2:kthreadd	3:rcu_gp	4:rcu_par_gp	6:kworker/0:0H-kblockd	
+

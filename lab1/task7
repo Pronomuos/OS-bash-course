@@ -1,0 +1,6 @@
+#!/bin/bash
+grep -o -h "[[:alnum:]]\+@[[:alnum:].]\+" /etc/* 2> file | 
+#awk '/@/' |
+tr -s '\n' ',' > email.lst   
+rm file
+

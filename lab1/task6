@@ -1,0 +1,5 @@
+#!/bin/bash
+i_file="/var/log/anaconda/X.log" 
+sed -n 's/(WW)/Warning:/p' "$i_file" >> full.log
+sed -n 's/(II)/Information:/p' "$i_file" >> full.log
+cat full.log 

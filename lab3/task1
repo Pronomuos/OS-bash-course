@@ -1,0 +1,6 @@
+#!/bin/bash
+
+date=$(date '+%F|%T')
+mkdir ~/test && { echo "catalog test was created successfully" > ~/report ;
+touch ~/test/$date ; }
+ping "www.net_nikogo.ru" 2>> ~/report

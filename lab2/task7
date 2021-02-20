@@ -1,0 +1,30 @@
+#!/bin/bash
+
+write_bytes() {
+for pid in $(ps -e --format pid | sed "1d"); do
+	io="proc/$pid/io"
+	bytes=$(cat /proc/$pid/io 2>/dev/null | grep "read_bytes" | awk '{print $2}')
+	echo "$pid $bytes" >> $1
+done
+}
+
+b="before_minute.log"
+a="after_minute.log"
+>temp.txt
+>$b
+>$a
+
+write_bytes $b
+sleep 10s
+write_bytes $a
+
+for pid in $(ps -e --format pid | sed "1d"); do
+	before_b=$(grep -i "$pid" $b | awk '{print $2}')
+	after_b=$(grep -i "$pid" $a | awk '{print $2}')
+	bytes=$(echo "$after_b - $before_b" | bc 2>/dev/null)
+	cmd=$(ps -q $pid --format cmd | sed "1d")
+	echo "$pid:$cmd:$bytes" >> temp.txt
+done
+
+cat temp.txt | sort -t ":" -nrk3 | head -n 3
+rm temp.txt

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+>"task4.log"
+> temp.txt
+
+for pid in $(ps -e --format pid | sed "1d"); do
+	file_status="/proc/$pid/status"
+	file_sched="/proc/$pid/sched"
+	ppid=$(grep -i "ppid" $file_status 2> /dev/null | awk '{print $2}')
+	if [[ -z "$ppid" ]]
+	then continue
+	fi
+	runtime=$(grep -i "sum_exec_runtime" $file_sched 2> /dev/null | awk '{print $3}')
+	switches=$(grep -i "nr_switches" $file_sched 2> /dev/null | awk  '{print $3}')
+	art=$(echo "scale=4;$runtime/$switches" | bc)
+	echo "ProcessID=$pid : Parent_ProcessID=$ppid : Average_Running_Time=$art" >> temp.txt
+done
+cat  temp.txt |  sort -nt "=" -k3 >> task4.log
+rm temp.txt

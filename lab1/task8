@@ -1,0 +1,5 @@
+#!/bin/bash
+sort -t ':' -k3n /etc/passwd |
+awk -F: '{print $1 " " $3}'
+
+

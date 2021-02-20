@@ -1,0 +1,25 @@
+#!/bin/bash
+
+menu=0
+while [ $menu -lt 1 ] || [ $menu -gt 4 ]; do
+	echo "Print 1, if you wish to run nano, 2 - vi, 3 - links, 4 - to exit.\n"
+	read menu;
+done;
+	
+case $menu in
+1)
+nano
+;;
+2)
+vi
+;;
+3)
+links
+;;
+4)
+exit 0
+;;
+*)
+echo "Incorrect argument!\n"
+;;
+esac

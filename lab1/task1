@@ -1,0 +1,21 @@
+#!/bin/bash
+max=0
+if [[ $# -lt 3 ]]; then
+	echo "Not enough parameters.";
+else
+	a=$1
+	b=$2
+        c=$3
+	if [[ $a -ge  $b ]]; then
+		max=$a;
+	else
+		max=$b;
+	fi
+	if [[ $max -lt $c ]]; then
+		max=$c;
+	fi
+	echo "The max number is: $max.";
+fi
+
+
+

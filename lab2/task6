@@ -1,0 +1,18 @@
+#!/bin/bash
+max_mem=-1
+max_pid=-1
+echo  "By top - $(top -bn 1 -o RES | sed -n 8p | awk '{print $1 " " $6}')"
+for pid in  $(ps -e --format pid | sed "1d"); do
+	status="/proc/$pid/status"
+	mem=$(grep -i "vmrss" $status 2> /dev/null | awk '{print $2}')
+	if [[ -z $mem ]]; then
+		continue
+	fi
+
+	if [[ "$mem" -gt "$max_mem" ]]; then
+		max_mem=$mem
+		max_pid=$pid
+	fi
+done
+
+echo "By program - $max_pid $max_mem"

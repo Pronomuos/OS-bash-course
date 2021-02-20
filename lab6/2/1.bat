@@ -1,0 +1,1 @@
+net share temp="c:\Temp"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+str=""
+output=""
+while [[ $str != "q" ]]; do
+	output+="$str"
+	read -r str;
+done;
+
+echo "You texted: $output."
+

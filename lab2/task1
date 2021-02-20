@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ps -a -u user --format pid,cmd | awk '{print $1" " $2}' > task1.log
+cat task1.log
+cat task1.log | sed "1d" | wc -l
+

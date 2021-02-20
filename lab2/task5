@@ -1,0 +1,24 @@
+#!/bin/bash
+
+prev_ppid=-1
+count=0
+sum=0
+>"task5.log"
+
+while read line ; do
+	cur_ppid=$(echo $line | cut -d ":" -f 2 | grep -Eo "[[:digit:].,]+")
+	cur_art=$(echo $line | cut -d ":" -f 3 | grep -Eo "[[:digit:],.]+")
+	if [[ "$prev_ppid" -ne -1 && "$cur_ppid" -ne "$prev_ppid" ]]; then
+		average_art=$(echo "scale=4; $sum/$count" | bc)
+		echo "Average_Sleeping_Children_of_ParentID=$prev_ppid is $average_art" >> task5.log
+		count=0
+		sum=0
+	fi
+		sum=$(echo "scale=4; $sum + $cur_art" | bc)
+		count=$(echo "$count + 1" | bc)
+		prev_ppid=$cur_ppid
+		echo $line >> task5.log
+done < task4.log
+
+average_art=$(echo "scale=4; $sum/$count" | bc)
+echo "Average_Sleeping_Children_of_ParentID=$prev_ppid is $average_art" >> task5.log
